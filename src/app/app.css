@@ -1,0 +1,37 @@
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.navbar {
+  background: white;
+  border-radius: 12px;
+  padding: 18px 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+
+  margin-bottom: 25px;
+}
+
+.navbar h1 {
+  color: #2563eb;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #2563eb;
+}

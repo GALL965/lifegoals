@@ -1,0 +1,18 @@
+.about-card {
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.about-card h2 {
+  margin-bottom: 20px;
+  color: #2563eb;
+}
+
+.about-card p {
+  margin-bottom: 12px;
+}

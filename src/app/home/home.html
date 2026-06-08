@@ -1,0 +1,33 @@
+<div class="card">
+
+  <h2>Mis Metas</h2>
+
+  <div class="input-group">
+
+    <input
+      [(ngModel)]="nuevaMeta"
+      placeholder="Nueva meta">
+
+    <button (click)="agregar()">
+      Agregar
+    </button>
+
+  </div>
+
+  <ul>
+
+    <li *ngFor="let meta of metas">
+
+      <span>{{ meta.meta }}</span>
+
+      <button
+        class="delete-btn"
+        (click)="eliminar(meta.id)">
+        Eliminar
+      </button>
+
+    </li>
+
+  </ul>
+
+</div>
